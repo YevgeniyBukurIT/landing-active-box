@@ -102,8 +102,7 @@ body {
     border: none;
     margin: 82px 485px;
     transition: 0.2s;
-
-
+    border-radius: 5px;
 }
 
 .masthead_button:hover {
@@ -171,7 +170,9 @@ body {
 
 /*----- works -----*/
 .works {
+    margin: 0 auto;
     width: 100%;
+    max-width: 1920px;
     height: 700px;
 }
 .works_high, .works_low {
@@ -190,21 +191,25 @@ body {
     border: 1px solid white;
 }
 
+.works_blur_default_1 {
+    width: 470px;
+    height: 350px;
+}
 
+.works_blur_default_2 {
+    width: 480px;
+    height: 350px;
+}
 
 .works_blur {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background: rgba(212, 65, 65, 0.9);
-    width: 470px;
-    height: 350px;
+    background: rgba(212, 64, 64, 0.9);
     text-align: center;
     border: 1px solid white;
-
     opacity: 0;
     transition: 0.2s;
-
 }
 
 .works_blur_h4 {
@@ -288,6 +293,169 @@ body {
     opacity: 1;
 }
 
+/*------ team ------*/
+
+.team {
+    display: flex;
+    width: 100%;
+    max-width: 1170px;
+    height: 785px;
+    margin: 0 auto;
+}
+
+.team_1 {
+    width: 270px;
+    height: 580px;
+    font-family: Raleway, sans-serif;
+    margin-top: 100px;
+    margin-right: 30px;
+
+}
+
+.team_1:last-child {
+    margin-right: 0;
+}
+
+.team_img {
+    max-width:100%;
+}
+
+.team_1_h4 {
+    font-size: 22px;
+    font-weight: 600;
+    color: black;
+    margin-top: 30px;
+    margin-bottom: 0;
+}
+
+.team_1_p1 {
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #e84545;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.team_p2 {
+    font-size: 14px;
+    line-height: 1.5;
+    color: black;
+    margin-top: 15px;
+    margin-bottom: 0;
+
+}
+
+.team_socialNetworkICO {
+    margin-top: 20px;
+}
+
+
+.clients {
+    margin: 0 auto;
+    display: flex;
+    width: 100%;
+    max-width: 1910px;
+    height: 500px;
+
+}
+
+.clients_photo {
+    width: 950px;
+    height: 500px;
+    background: url("img/clients/testimonial-1.jpg") center no-repeat;
+}
+
+.clients_content {
+    width: 950px;
+    height: 500px;
+    background: #623754;
+}
+
+.clients_content_text_1 {
+    width: 500px;
+    font-family: 'Cardo', serif;  /*--- italic ---*/
+    font-size: 36px;
+    font-weight: 1.16;
+    color: white;
+    margin-top: 113px;
+    margin-left: 85px;
+
+
+}
+
+.clients_content_text_2 {
+    width: 300px;
+    margin-top: 30px;
+    margin-left: 85px;
+    font-size: 13px;
+    font-family: Raleway, sans-serif;
+    color: white;
+}
+
+.clients_circle {
+    width: 12px;
+    height: 12px;
+    border-radius: 100%;
+    background: #755d6e;
+    margin-right: 8px;
+    transition: 0.2s;
+}
+
+.clients_circle_container  {
+    display: flex;
+    margin-top: 65px;
+    margin-left: 250px;
+}
+
+.clients_circle:hover {
+    background: white;
+    cursor: pointer;
+}
+
+.download {
+    height: 340px;
+    width: 660px;
+    margin: 0 auto;
+
+
+}
+
+.download_text_1 {
+    margin-top: 100px;
+    color: black;
+    font-size: 28px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+}
+
+.download_text_2 {
+    color: black;
+    font-size: 15px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-top: 20px;
+    margin-left: 162px;
+}
+
+.download_button {
+    border: none;
+    transition: 0.2s;
+    border-radius: 5px;
+    width: 280px;
+    height: 45px;
+    background: #e84545;
+    margin: 40px 190px;
+    text-transform: uppercase;
+    color: white;
+    font-family: Raleway, sans-serif;
+}
+
+.download_button:hover {
+    background: #dc2f2f;
+    cursor: pointer;
+}
 
 
 
