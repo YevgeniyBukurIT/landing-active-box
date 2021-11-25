@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
 
@@ -347,8 +351,11 @@ body {
 }
 
 .team_socialNetworkICO {
+    width: 140px;
     margin-top: 20px;
+
 }
+
 
 
 .clients {
@@ -456,6 +463,117 @@ body {
     background: #dc2f2f;
     cursor: pointer;
 }
+
+/*----------- footer ----------*/
+.footer {
+    height: 345px;
+    width: 1910px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.high_footer {
+    height: 250px;
+    width: 100%;
+    background: #3a3e64;
+}
+
+.low_footer {
+    height: 95px;
+    width: 100%;
+    background: #313454;
+}
+
+.high_footer_content {
+    display: flex;
+    height: 250px;
+    width: 1170px;
+    margin: 0 auto;
+
+
+}
+
+
+.low_footer_content {
+    height: 95px;
+    width: 1170px;
+    margin: 0 auto;
+
+    border: 1px solid #313454;
+}
+
+.footer_location {
+    width: 170px;
+    height: 70px;
+    margin-top: 70px;
+    margin-left: 100px;
+
+
+
+}
+
+.location_h4, .share_h4, .about_h4 {
+    font-family: "Raleway 600", sans-serif;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+
+}
+
+.location_p, .about_p  {
+    font-family: Raleway, sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #adaebb;
+    text-align: center;
+    margin-top: 20px;
+
+}
+
+.footer_share {
+    width: 170px;
+    height: 85px;
+    margin-top: 70px;
+    margin-left: 170px;
+
+
+}
+
+.share_socialNetworkICO {
+    margin: 15px 18px;
+}
+
+.footer_about {
+    width: 370px;
+    height: 95px;
+    margin-top: 70px;
+    margin-left: 130px;
+}
+
+
+
+.low_footer_content_p {
+    width: 370px;
+    height: 40px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #656570;
+    margin: 25px 350px;
+    text-align: center;
+
+
+}
+
+.low_footer_content_p span {
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+    color: white;
+
+
+}
+
 
 
 
